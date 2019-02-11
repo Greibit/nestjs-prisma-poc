@@ -1,0 +1,5 @@
+type Lead {
+  id: ID! @unique
+  name: String!
+  surname: String
+}
